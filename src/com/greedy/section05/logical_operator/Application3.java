@@ -10,7 +10,7 @@ public class Application3 {
 		
 		int num1 = 10;
 		
-		int result1 = (false && ++num1 > 0)? num1 : num1;	//++num1 실행X
+		int result1 = (false && ++num1 > 0)? num1 : num1;	//++num1 실행X(죽은코드)
 		System.out.println("&&실행 확인 : " + result1);
 		
 		int num2 = 10;
@@ -20,11 +20,6 @@ public class Application3 {
 		result2 = (false || ++num2 > 0)? num2 : num2;	//++num2 실행
 		System.out.println("||실행 확인 : " + result2);
 		
-		
-		
-		
-		
-
 	}
 
 }
